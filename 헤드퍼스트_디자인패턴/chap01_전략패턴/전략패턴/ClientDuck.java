@@ -35,7 +35,5 @@ public class ClientDuck {
 		decoyDuck.performQuack();
 		decoyDuck.setFlyBehavior(new FlyRocketPowered());
 		decoyDuck.performFly();
-		decoyDuck.setFlyBehavior(new FlyNoWay());
-		decoyDuck.performFly();
 	}
 }
